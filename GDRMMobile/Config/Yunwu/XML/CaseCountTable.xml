@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseCountTable>
+    <Paper size="A4" width="595" height="842">
+        <Margin top="0" left="0" right="3" bottom="1" />
+        <orientation isPortrait="YES" />
+    </Paper>
+    <StaticTable>
+        <Lines>
+            <defaultLineWidth>0.2</defaultLineWidth>
+            <!--损坏公路设施索赔清单下线-->
+            <line x1="56.5" y1="45.5" x2="153.5" y2="45.5" />
+            <line x1="56.5" y1="46.2" x2="153.5" y2="46.2" />
+            <!--上线-->
+            <line x1="16.5" y1="47.5" x2="190.5" y2="47.5" />
+            <!-- 下线-->
+            <line x1 = "16.5" y1= "268"  x2="190.5"  y2= "268"/>
+            <!--左边框-->
+            <line x1 = "16.5" y1= "47.5"  x2="16.5"  y2= "268"/>
+            <!--右边框-->
+            <line x1 = "190.5" y1= "47.5"  x2="190.5"  y2= "268"/>
+            <!--案发地点下线-->
+            <line x1="16.5" y1="60" x2="190.5" y2="60" />
+            <!--单位下线-->
+            <line x1="16.5" y1="72" x2="190.5" y2="72" />
+            <!-- 项目   数量      单位     单价    额定金额     备注  下线   -->
+            <line x1 = "28" y1= "80"  x2="190.5"  y2= "80"/>
+            <!-- 损坏情况 1下线   -->
+            <line x1 = "28" y1= "88.2"  x2="190.5"  y2= "88.2"/>
+            <line x1 = "28" y1= "96.4"  x2="190.5"  y2= "96.4"/>
+            <!-- 3下线   -->
+            <line x1 = "28" y1= "104.6"  x2="190.5"  y2= "104.6"/>
+            <line x1 = "28" y1= "112.8"  x2="190.5"  y2= "112.8"/>
+            <!-- 5下线   -->
+            <line x1 = "28" y1= "121"  x2="190.5"  y2= "121"/>
+            <line x1 = "28" y1= "129.2"  x2="190.5"  y2= "129.2"/>
+            <!-- 7下线   -->
+            <line x1 = "28" y1= "137.4"  x2="190.5"  y2= "137.4"/>
+            <line x1 = "28" y1= "145.6"  x2="190.5"  y2= "145.6"/>
+            <!-- 9下线   -->
+            <line x1 = "28" y1= "153.8"  x2="190.5"  y2= "153.8"/>
+            <line x1 = "28" y1= "162"  x2="190.5"  y2= "162"/>
+            <!-- 11下线   -->
+            <line x1 = "28" y1= "170.2"  x2="190.5"  y2= "170.2"/>
+            <line x1 = "28" y1= "178.4"  x2="190.5"  y2= "178.4"/>
+            <!-- 13下线   -->
+            <line x1 = "28" y1= "186.6"  x2="190.5"  y2= "186.6"/>
+            <line x1 = "28" y1= "194.8"  x2="190.5"  y2= "194.8"/>
+            <!-- 15下线   -->
+            <line x1 = "28" y1= "203"  x2="190.5"  y2= "203"/>
+            <line x1 = "16.5" y1= "211.2"  x2="190.5"  y2= "211.2"/>
+            <!--  合计下线   -->
+            <line x1 = "16.5" y1= "221"  x2="190.5"  y2= "221"/>
+            <!--  备注下线   -->
+            <line x1 = "16.5" y1= "258"  x2="190.5"  y2= "258"/>
+            <!--单位、案发地点右线 -->
+            <line x1 = "28" y1 = "47.5" x2 = "28" y2 = "221"/>
+            <!-- 车号   时间   左线 -->
+            <line x1 = "104.5" y1 = "47.5" x2 = "104.5" y2 = "72"/>
+            <!-- 车号    时间   右线 -->
+            <line x1 = "117" y1 = "47.5" x2 = "117" y2 = "72"/>
+            <!-- 车型 左线 -->
+            <line x1 = "143" y1 = "60" x2 = "143" y2 = "72"/>
+            <!-- 车型  右线 -->
+            <line x1 = "156" y1 = "60" x2 = "156" y2 = "72"/>
+            <!-- 数量左线     右线-->
+            <line x1 = "71" y1 = "72" x2 = "71" y2 = "211.2"/>
+            <!-- 数量右线     单位左线-->
+            <line x1 = "86" y1 = "72" x2 = "86" y2 = "211.2"/>
+            <!-- 单位右线    单价左线-->
+            <line x1 = "98" y1 = "72" x2 = "98" y2 = "211.2"/>
+            <!-- 单价、车号右线    金额左线-->
+            <line x1 = "124" y1 = "72" x2 = "124" y2 = "211.2"/>
+            <!-- 金额右线    备注左线-->
+            <line x1 = "160" y1 = "72" x2 = "160" y2 = "211.2"/>
+        </Lines>
+        <Title>
+            <Text>
+                <text>广东省公路事务中心许广高速公路</text>
+                <fontSize>15</fontSize>
+                <isBold>YES</isBold>
+                <origin x="186" y="65" />
+                <size width="226" height="14" />
+            </Text>
+            <Text>
+                <text>清西大桥路政大队</text>
+                <fontSize>15</fontSize>
+                <isBold>YES</isBold>
+                <origin x="188" y="80" />
+                <size width="226" height="14" />
+            </Text>
+            <Text>
+                <text>损 坏 公 路 路 产 索 赔 清 单</text>
+                <fontSize>14</fontSize>
+                <origin x="182" y="110" />
+                <size width="226" height="14" />
+            </Text>
+        </Title>
+        <Texts>
+            <defaultFontSize>11</defaultFontSize>
+            <!--标题:-->
+<!--            <Text>-->
+<!--                <text>广东省公路管理局云梧路政大队</text>-->
+<!--                <fontSize>16</fontSize>-->
+<!--                <origin x="43" y="24" />-->
+<!--                <size width="500" height="6" />-->
+<!--            </Text>-->
+            <!--标题:-->
+<!--            <Text>-->
+<!--                <text>损坏公路路产索赔清单</text>-->
+<!--                <fontSize>17</fontSize>-->
+<!--                <origin x="37" y="36" />-->
+<!--                <size width="500" height="6" />-->
+<!--            </Text>-->
+            <Text>
+                <text>案发</text>
+                <origin x="18" y="50.5" />
+                <size width="40" height="6" />
+            </Text>
+            <Text>
+                <text>地点</text>
+                <origin x="18" y="55.5" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>时间</text>
+                <origin x="107" y="53" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>年</text>
+                <origin x="136" y="53" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>月</text>
+                <origin x="148" y="53" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>日</text>
+                <origin x="158.5" y="53" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>时</text>
+                <origin x="170" y="53" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>分</text>
+                <origin x="180" y="53" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>单</text>
+                <origin x="20" y="63" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>位</text>
+                <origin x="20" y="68" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>车号</text>
+                <origin x="107" y="65.5" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>车型</text>
+                <origin x="145" y="65.5" />
+                <size width="40" height="6" />
+            </Text>
+            <Text>
+                <text>项    目</text>
+                <origin x="42" y="75" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>数量</text>
+                <origin x="74" y="75" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>单位</text>
+                <origin x="87.5" y="75" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>单价（元）</text>
+                <origin x="102" y="75" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>额定金额（元）</text>
+                <origin x="128" y="75" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>备  注</text>
+                <origin x="168" y="75" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>损</text>
+                <origin x="20.5" y="90" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>坏</text>
+                <origin x="20.5" y="104" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>公</text>
+                <origin x="20.5" y="118" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>路</text>
+                <origin x="20.5" y="132" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>设</text>
+                <origin x="20.5" y="146" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>施</text>
+                <origin x="20.5" y="160" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>情</text>
+                <origin x="20.5" y="174" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <text>况</text>
+                <origin x="20.5" y="188" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>11</fontSize>
+                <text>合计</text>
+                <origin x="18" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>万</text>
+                <origin x="49.5" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>仟</text>
+                <origin x="64.6" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>佰</text>
+                <origin x="79.8" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>拾</text>
+                <origin x="95" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>元</text>
+                <origin x="110" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>角</text>
+                <origin x="125" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>分（¥ </text>
+                <origin x="141" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>元）</text>
+                <origin x="173" y="216" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>11</fontSize>
+                <text>备注</text>
+                <origin x="18" y="225.5" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>11</fontSize>
+                <text>当事人签名（按印）：</text>
+                <origin x="18" y="245" />
+                <size width="130" height="6" />
+            </Text>
+            <Text>
+                <fontSize>11</fontSize>
+                <text>经办人：</text>
+                <origin x="135.5" y="245" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>11</fontSize>
+                <text>（盖章）</text>
+                <origin x="135" y="251.5" />
+                <size width="400" height="6" />
+            </Text>
+            <Text>
+                <fontSize>11</fontSize>
+                <text>应付款金额（大写）</text>
+                <origin x="18" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>万</text>
+                <origin x="64" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>仟</text>
+                <origin x="77" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>佰</text>
+                <origin x="90.1" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>拾</text>
+                <origin x="104" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>元</text>
+                <origin x="117" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>角</text>
+                <origin x="130" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>分（¥ </text>
+                <origin x="143.7" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>元）</text>
+                <origin x="174" y="262" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>第</text>
+                <origin x="193" y="66" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>一</text>
+                <origin x="193" y="70" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>联</text>
+                <origin x="193" y="74" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>存</text>
+                <origin x="193" y="86" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>根</text>
+                <origin x="193" y="90" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>第</text>
+                <origin x="193" y="104.5" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>二</text>
+                <origin x="193" y="108.5" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>联</text>
+                <origin x="193" y="112.5" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>财</text>
+                <origin x="193" y="126.5" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>务</text>
+                <origin x="193" y="130.5" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>第</text>
+                <origin x="193" y="145" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>三</text>
+                <origin x="193" y="149" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>联</text>
+                <origin x="193" y="153" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>当</text>
+                <origin x="193" y="167" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>事</text>
+                <origin x="193" y="171" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>人</text>
+                <origin x="193" y="175" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>第</text>
+                <origin x="193" y="194" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>四</text>
+                <origin x="193" y="198" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>联</text>
+                <origin x="193" y="202" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>交</text>
+                <origin x="193" y="213" />
+                <size width="100" height="6" />
+            </Text>
+            <Text>
+                <fontSize>10</fontSize>
+                <text>警</text>
+                <origin x="193" y="217" />
+                <size width="100" height="6" />
+            </Text>
+        </Texts>
+    </StaticTable>
+    <DataTable>
+        <!--设置默认字体-->
+        <DefaultFontSize>19</DefaultFontSize>
+        <!--   案号     -->
+<!--                    <attributeName>FullmMrkforcaseinfo</attributeName>-->
+        <!--当事人-->
+<!--                    <attributeName>party</attributeName>-->
+        <!--联系电话-->
+<!--                    <attributeName>tel_number</attributeName>-->
+        <!--案发地点-->
+        <UITextField>
+            <origin x="29" y="49.5" />
+            <size width="75" height = "10"/>
+<!--   居中         -->
+            <alignment>center</alignment>
+            <content>
+                <data>
+                    <attributeName>service_position</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <!--时间-->
+        <!--年-->
+        <UITextField>
+            <origin x="124" y="51" />
+            <size width="25" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>happen_date</attributeName>
+                    <mode>yyyy</mode>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <origin x="142" y="51" />
+            <size width="25" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>happen_date</attributeName>
+                    <mode>MM</mode>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <origin x="153.5" y="51" />
+            <size width="25" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>happen_date</attributeName>
+                    <mode>dd</mode>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <origin x="164.5" y="51" />
+            <size width="25" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>happen_date</attributeName>
+                    <mode>HH</mode>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <origin x="175" y="51" />
+            <size width="25" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>happen_date</attributeName>
+                    <mode>mm</mode>
+                </data>
+            </content>
+        </UITextField>
+        <!--单位-->
+        <UITextField>
+            <origin x="29" y="61.5" />
+            <size width="54" height = "10"/>
+            <content>
+                <data>
+                    <attributeName>org_name</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <origin x="84" y="61.5" />
+            <size width="20" height = "10"/>
+            <content>
+                <data>
+                    <attributeName>party</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <!--车号-->
+        <UITextField>
+            <origin x="118" y="61.5" />
+            <size width="25.5" height = "10"/>
+            <content>
+                <data>
+                    <attributeName>automobile_number</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <!--车型-->
+        <UITextField>
+            <origin x="157" y="61.5" />
+            <size width="32" height = "10"/>
+            <content>
+                <data>
+                    <attributeName>automobile_pattern</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <!--损坏情况-->
+        <UITableView>
+            <content>
+                <data>
+                    <!--字段名-->
+                    <attributeName>case_count_list</attributeName>
+                </data>
+            </content>
+            <table>
+                <origin x="28.5" y="82" />
+                <row>
+                    <!--项目-->
+                    <cell>
+                        <size width = "43" height = "8.2" />
+                        <data>
+                            <attributeName>roadasset_name</attributeName>
+                        </data>
+                    </cell>
+                    <!--数量-->
+                    <cell>
+                        <size width = "15" height = "8.2" />
+                        <data>
+                            <attributeName>quantity</attributeName>
+                        </data>
+                    </cell>
+                    <!--单位-->
+                    <cell>
+                        <size width = "13" height = "8.2" />
+                        <data>
+                            <attributeName>unit</attributeName>
+                        </data>
+                    </cell>
+                    <!--单价-->
+                    <cell>
+                        <size width = "26" height = "8.2" />
+                        <data>
+                            <attributeName>price</attributeName>
+                        </data>
+                    </cell>
+                    <!--额定金额-->
+                    <cell>
+                        <size width = "36" height = "8.2" />
+                        <data>
+                            <attributeName>total_price</attributeName>
+                        </data>
+                    </cell>
+                    <!--备注-->
+                    <cell>
+                        <size width = "30" height = "8.2" />
+                        <data>
+                            <attributeName>remark</attributeName>
+                        </data>
+                    </cell>
+                </row>
+            </table>
+        </UITableView>
+        <!--备注（合计下方）-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="37" y="214" />
+            <size width="12.5" height = "6"/>
+            <alignment>Center</alignment>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_w</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--仟-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="58" y="214" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_q</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--佰-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="72" y="214" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_b</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--拾-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="88" y="214" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_s</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--元-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="103" y="214" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_y</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--角-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="118" y="214" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_j</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--分-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="134" y="214" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_f</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--元-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="152" y="214" />
+            <size width="21" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>sum</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="51.5" y="260" />
+            <size width="12.5" height = "6"/>
+            <alignment>Center</alignment>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_w</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--仟-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="70" y="260" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_q</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--佰-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="83" y="260" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_b</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--拾-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="97" y="260" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_s</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--元-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="110" y="260" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_y</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--角-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="123" y="260" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_j</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--分-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="136.5" y="260" />
+            <size width="100" height = "6"/>
+            <content>
+                <data>
+                    <attributeName>chinese_sum_f</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+        <!--元-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="154" y="260" />
+            <size width="20" height = "6"/>
+            <alignment>Center</alignment>
+            <content>
+                <data>
+                    <attributeName>sum</attributeName>
+                    <entityName></entityName>
+                </data>
+            </content>
+        </UITextField>
+    </DataTable>
+</CaseCountTable>

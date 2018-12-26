@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProveInfoTable>
+    <!--所有尺寸单位以像素计算-->
+    <!--定义纸张尺寸, 分辨率-->
+    <Paper size="A4" width="595" height="842">
+        <!--定义纸张边距，上，左，右，下-->
+        <Margin top="0"  left="0" right="65" bottom="65" />
+    </Paper>
+    <!--所有缺省设置元素，default*之类均必不可少-->
+    <!--固定表格-->
+    <StaticTable>
+        <Lines>
+            <!--默认线宽-->
+            <defaultLineWidth>0.2</defaultLineWidth>
+            <!--直线两点位置坐标必不可少，线宽linewidth为可选配置参数-->
+            <!--最上横线-->
+            <line x1="25" y1="24" x2="179" y2="24" />
+            <!--案由上线-->
+            <line x1="25" y1="70" x2="179" y2="70" />
+            <!--案由下线-->
+            <line x1="25" y1="80" x2="179" y2="80" />
+            <!--勘验时间下线-->
+            <line x1="25" y1="90" x2="179" y2="90" />
+            <!--天气情况下线-->
+            <line x1="25" y1="101" x2="179" y2="101" />
+            <!--勘验人2-上线-->
+            <line x1="25" y1="112" x2="179" y2="112" />
+            <!--当事人-上线-->
+            <line x1="25" y1="123" x2="179" y2="123" />
+            <!--当事人代表-上线-->
+            <line x1="25" y1="134" x2="179" y2="134" />
+            <!--被邀请人-上线-->
+            <line x1="25" y1="145" x2="179" y2="145" />
+            <!--记录人-上线-->
+            <line x1="25" y1="156" x2="179" y2="156" />
+            <!--勘验情况及结果-上线-->
+            <line x1="25" y1="167" x2="179" y2="167" />
+            <!--勘验人签名-上线-->
+            <line x1="25" y1="250" x2="179" y2="250" />
+            <!--被邀请人签名-上线-->
+            <line x1="25" y1="258" x2="179" y2="258" />
+            <!--本页写不下的-上线-->
+            <line x1="25" y1="266" x2="179" y2="266" />
+            <!--左边框-->
+            <line x1="25" y1="266" x2="25" y2="70" />
+            <!--右边框-->
+            <line x1="179" y1="266" x2="179" y2="70" />
+            <!--勘验人1-竖线1-->
+            <line x1="55" y1="101" x2="55" y2="167" />
+            <!--单位及职务-左线-->
+            <line x1="86" y1="101" x2="86" y2="167" />
+            <!--单位及职务-右线-->
+            <line x1="110" y1="101" x2="110" y2="167" />
+            <!--当事人代表-->
+            <line x1="32.5" y1="134" x2="32.5" y2="145" />
+        </Lines>
+        
+        <Title>
+            <Text>
+                <text>清西大桥路政大队</text>
+                <fontSize>12</fontSize>
+                <origin x="189" y="90" />
+                <size width="226" height="14" />
+            </Text>
+            <Text>
+                <style font-weight = bold></style>
+                <text>公路赔偿案件勘验检查笔录</text>
+                <textStyle>bold</textStyle>
+                <fontSize>14</fontSize>
+                <origin x="185" y="120" />
+                <size width="226" height="14" />
+            </Text>
+        </Title>
+        <Texts>
+            <Text>
+                <text>案号:</text>
+                <fontSize>11</fontSize>
+                <origin x="99" y="62" />
+                <size width="36" height="17" />
+            </Text>
+<!--            <Text>-->
+<!--                <text>）年（</text>-->
+<!--                <fontSize>12</fontSize>-->
+<!--                <origin x="140" y="43" />-->
+<!--                <size width="36" height="17" />-->
+<!--            </Text>-->
+<!--            <Text>-->
+<!--                <text>）号</text>-->
+<!--                <fontSize>12</fontSize>-->
+<!--                <origin x="166" y="43" />-->
+<!--                <size width="36" height="17" />-->
+<!--            </Text>-->
+            <Text>
+                <text>案 由：</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="73" />
+                <size width="48" height="17" />
+            </Text>
+            <Text>
+                <text>勘验时间：</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="82.5" />
+                <size width="108" height="17" />
+            </Text>
+            <Text>
+                <text>天气情况：</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="93" />
+                <size width="60" height="17" />
+            </Text>
+<!--            <Text>-->
+<!--                <text>勘验场所：</text>-->
+<!--                <fontSize>12</fontSize>-->
+<!--                <origin x="80" y="60.5f" />-->
+<!--                <size width="108" height="17" />-->
+<!--            </Text>-->
+            <Text>
+                <text>勘验人1</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="104" />
+                <size width="96" height="17" />
+            </Text>
+            <Text>
+                <text>单位及职务</text>
+                <fontSize>11</fontSize>
+                <origin x="88" y="104" />
+                <size width="72" height="17" />
+            </Text>
+            <Text>
+                <text>勘验人2</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="115" />
+                <size width="96" height="17" />
+            </Text>
+            
+            <Text>
+                <text>单位及职务</text>
+                <fontSize>11</fontSize>
+                <origin x="88" y="115" />
+                <size width="72" height="17" />
+            </Text>
+            <Text>
+                <text>当 事 人</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="126" />
+                <size width="60" height="17" />
+            </Text>
+            <Text>
+                <text>单位及职务</text>
+                <fontSize>11</fontSize>
+                <origin x="88" y="126" />
+                <size width="72" height="17" />
+            </Text>
+            <Text>
+                <text>或</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="137" />
+                <size width="84" height="17" />
+            </Text>
+            <Text>
+                <text>当事人代表</text>
+                <fontSize>11</fontSize>
+                <origin x="33.5" y="137" />
+                <size width="84" height="17" />
+            </Text>
+            <Text>
+                <text>单位及职务</text>
+                <fontSize>11</fontSize>
+                <origin x="88" y="137" />
+                <size width="72" height="17" />
+            </Text>
+            <Text>
+                <text>被邀请人</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="148" />
+                <size width="60" height="17" />
+            </Text>
+            <Text>
+                <text>单位及职务</text>
+                <fontSize>11</fontSize>
+                <origin x="88" y="148" />
+                <size width="72" height="17" />
+            </Text>
+            <Text>
+                <text>记 录 人</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="159" />
+                <size width="60" height="17" />
+            </Text>
+            <Text>
+                <text>单位及职务</text>
+                <fontSize>11</fontSize>
+                <origin x="88" y="159" />
+                <size width="72" height="17" />
+            </Text>
+            <Text>
+                <text>勘验情况及结果：</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="169" />
+                <size width="144" height="17" />
+            </Text>
+            <Text>
+                <text>以上情况属实。</text>
+                <fontSize>11</fontSize>
+                <origin x="35" y="242" />
+                <size width="120" height="6" />
+            </Text>
+            <Text>
+                <text>勘 验 人(签名):</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="252" />
+                <size width="120" height="17" />
+            </Text>
+            <Text>
+                <text>被邀请人(签名):</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="259.5f" />
+                <size width="120" height="17" />
+            </Text>
+            <Text>
+                <text>记录人(签名):</text>
+                <fontSize>11</fontSize>
+                <origin x="95" y="252" />
+                <size width="120" height="17" />
+            </Text>
+            <Text>
+                <text>▢当事人▢当事人代表(签名):</text>
+                <fontSize>11</fontSize>
+                <origin x="95" y="259.5f" />
+                <size width="190" height="17" />
+            </Text>
+            <Text>
+                <text>(本页写不下可另附纸)</text>
+                <fontSize>11</fontSize>
+                <origin x="27" y="268" />
+                <size width="460" height="17" />
+            </Text>
+        </Texts>
+    </StaticTable>
+    <DataTable>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="109.5" y="62" />
+            <size width="100" height="6" />
+            <content>
+                <!--                案号-->
+                <data>
+                    <attributeName>FullmMrkforcaseinfo</attributeName>
+                    <entityName>CaseInfo</entityName>
+                </data>
+            </content>
+        </UITextField>
+
+
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="42" y="73" />
+            <size width="100" height="6" />
+            <content>
+                <!--$F{case_short_desc}-->
+                <data>
+                    <attributeName>case_long_desc</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="49" y="82.5" />
+            <size width="50" height="6" />
+            <content>
+                <!--$F{start_date_time}-->
+                <data>
+                    <attributeName>start_date_time</attributeName>
+                    <mode>yyyy年MM月dd日HH时mm分</mode>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="103" y="82.5" />
+            <size width="14" height="6" />
+            <content>
+                <text>至</text>
+            </content>
+        </UITextField>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="115" y="82.5" />
+            <size width="50" height="6" />
+            <content>
+                <!--$F{end_date_time}-->
+                <data>
+                    <attributeName>end_date_time</attributeName>
+                    <mode>yyyy年MM月dd日HH时mm分</mode>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="49" y="93" />
+            <size width="35" height="6" />
+            <content>
+                <!--$F{organizer}-->
+                <data>
+                    <attributeName>weater</attributeName>
+                </data>
+            </content>
+        </UITextField>
+            <!-- 勘验场所       -->
+<!--        <UITextField>-->
+<!--            <fontSize>11</fontSize>-->
+<!--            <origin x="101" y="60.5f" />-->
+<!--            <size width="87" height="6" />-->
+<!--            <content>-->
+<!--                <data>-->
+<!--                    <attributeName>remark</attributeName>-->
+<!--                </data>-->
+<!--            </content>-->
+<!--        </UITextField>-->
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="57" y="104" />
+            <size width="14" height="6" />
+            <content>
+                <!--$F{prover1}-->
+                <data>
+                    <attributeName>prover1</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="112" y="102" />
+            <size width="66" height="10" />
+            <content>
+                <!--$F{prover1_duty}-->
+                <data>
+                    <attributeName>prover1_org_duty</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="57" y="115" />
+            <size width="14" height="6" />
+            <content>
+                
+                <data>
+                    <attributeName>prover2</attributeName>
+                    
+                </data>
+                
+            </content>
+        </UITextField>
+        
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="112" y="113" />
+            <size width="66" height="10" />
+            <content>
+                
+                <data>
+                    <attributeName>prover2_org_duty</attributeName>
+                    
+                </data>
+            </content>
+        </UITextField>
+        
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="57" y="126" />
+            <size width="14" height="6" />
+            <content>
+                <!--$F{citizen_name}-->
+                <data>
+                    <attributeName>citizen_name</attributeName>
+                    
+                </data>
+            </content>
+        </UITextField>
+        
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="112" y="124" />
+            <size width="66" height="10" />
+            <content>
+                <!--$F{citizen_sex}-->
+                <data>
+                    <attributeName>citizen_org_duty</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="57" y="137" />
+            <size width="14" height="6" />
+            <content>
+                
+                <data>
+                    <attributeName>organizer</attributeName>
+                    
+                </data>
+            </content>
+        </UITextField>
+        
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="112" y="135" />
+            <size width="66" height="10" />
+            <content>
+                
+                <data>
+                    <attributeName>organizer_org_duty</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="57" y="148" />
+            <size width="14" height="6" />
+            <content>
+                
+                <data>
+                    <attributeName>invitee</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="112" y="146" />
+            <size width="66" height="10" />
+            <content>
+                <data>
+                    <attributeName>invitee_org_duty</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="57" y="159" />
+            <size width="14" height="6" />
+            <content>
+                <!--记录人 单位职务-->
+                <data>
+                    <attributeName>recorder</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        
+        <UITextField>
+            <fontSize>11</fontSize>
+            <origin x="112" y="157" />
+            <size width="66" height="10" />
+            <content>
+                <!--记录人 单位职务-->
+                <data>
+                    <attributeName>recorder_org_duty</attributeName>
+                </data>
+            </content>
+        </UITextField>
+        
+        <UITextView>
+            <fontSize>11</fontSize>
+            <origin x="28" y="176" />
+            <size width="150.5" height="66" />
+            <lineHeight>20</lineHeight>
+            <leftOffSet>0</leftOffSet>
+            <content>
+                <data>
+                    <attributeName>event_desc</attributeName>
+                </data>
+            </content>
+        </UITextView>
+    </DataTable>
+</ProveInfoTable>
+

@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (6.3.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.3)
+  - BaiduMapKit (4.1.1)
+  - BarrageRenderer (1.8.1)
+  - LFLiveKit (1.9.6)
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AMap3DMap (~> 6.3.0)
+  - BaiduMapKit
+  - BarrageRenderer (~> 1.8.0)
+  - LFLiveKit (~> 1.6)
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 0.9.2)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.1)
+  - SDWebImage (~> 3.8.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap3DMap: 1bb48f98ecb46682f145881692e7b06adcd06a93
+  AMapFoundation: 58f883c80754c659cf626deb3150936bfe8f1772
+  BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
+  BarrageRenderer: a5dc2c9d38028be819b64ed2b7dfa240490b378a
+  LFLiveKit: 3944fe79d51e171e391f5c980de4b9ecdb7de957
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: baeb09bf1328ba683f08031b01e0ddebd774b3ad
+
+COCOAPODS: 1.4.0
