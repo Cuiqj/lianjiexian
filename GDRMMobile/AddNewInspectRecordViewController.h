@@ -69,6 +69,8 @@ typedef enum {
 @property (weak, nonatomic) IBOutlet UITextField *textRoad;
 @property (weak, nonatomic) IBOutlet UITextField *textPlaceNormal;
 @property (weak, nonatomic) IBOutlet UITextField *textDescNormal;
+
+//无异常     巡查描述
 @property (weak, nonatomic) IBOutlet UITextView *textViewNormalDesc;
 
 

@@ -16,9 +16,18 @@
 @implementation InspectionCheckPickerViewController
 
 
-
-- (void)viewDidLoad
-{
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    switch (self.pickerState) {
+        case kDescription:
+            self.preferredContentSize = CGSizeMake(450, 320);
+            break;
+        default:
+            self.preferredContentSize = CGSizeMake(180, 320);
+            break;
+    }
+}
+- (void)viewDidLoad{
     switch (self.pickerState) {
         case kCheckHandle:
             self.data=[[CheckHandle handleForCheckType:self.checkTypeID] valueForKey:@"handle_name"];

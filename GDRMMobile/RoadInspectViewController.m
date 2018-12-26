@@ -772,7 +772,15 @@ InspectionCheckState inspectionState;
             [remark appendFormat:@"死亡%@人，", caseInfo.death_sum];
         }
     }
-    [remark appendFormat:@"车辆一般损坏，"];
+    NSString * Car_bad_desc = citizen.bad_desc;
+    if (![Car_bad_desc containsString:@"损坏"]) {
+        Car_bad_desc = [Car_bad_desc stringByAppendingFormat:@"损坏"];
+    }
+    if ([Car_bad_desc isEqualToString:@"损毁损坏"]) {
+        Car_bad_desc = @"损毁";
+    }
+    
+    [remark appendFormat:@"车辆%@，",Car_bad_desc];
     NSArray *deformArray=[CaseDeformation deformationsForCase:caseID forCitizen:citizen.automobile_number];
     if (deformArray.count>0) {
         NSString *deformsString=@"";
@@ -808,7 +816,11 @@ InspectionCheckState inspectionState;
     } else {
         [remark appendString:@"无路产损坏，"];
     }
-    [remark appendFormat:@"回收交安设施解封%@，交通恢复正常，报监控中心后做好记录继续巡查。",caseInfo.place];
+    NSArray *deformations = [CaseDeformation deformationsForCase:caseID];
+    double summary=[[deformations valueForKeyPath:@"@sum.total_price.doubleValue"] doubleValue];
+    [remark appendFormat:@"索赔金额%.2f元整车辆%@，报监控中心通知交警及拯救到场处理。xxx时xxx分交警到达现场、xxx时xxx分拯救到达现场、xxx时xxx分事故处理完毕，回收交安设施解封%@，交通恢复正常，报监控中心后做好记录继续巡查。",summary,Car_bad_desc,caseInfo.place];
+    
+//    [remark appendFormat:@"回收交安设施解封%@，交通恢复正常，报监控中心后做好记录继续巡查。",caseInfo.place];
     
 //    [remark appendFormat:@"已立案处理（案号：%@高赔（%@）第（%@）号）。", [[AppDelegate App].projectDictionary objectForKey:@"cityname"], caseInfo.case_mark2, [caseInfo full_case_mark3]];
     inspectionRecord.remark=remark;

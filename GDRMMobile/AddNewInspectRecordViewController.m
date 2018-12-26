@@ -351,17 +351,16 @@
             [[AppDelegate App] saveContext];
             [self.delegate reloadRecordData];
             [self.delegate addObserverToKeyBoard];
-            [self dismissModalViewControllerAnimated:YES];
+            [self dismissViewControllerAnimated:YES completion:nil];
         }
     } else if(self.descState == kNormalDesc) {
         BOOL isBlank = NO;
         for (id obj in self.viewNormalDesc.subviews) {
             if ([obj isKindOfClass:[UITextField class]]) {
                 if ([[(UITextField *)obj text] isEmpty]) {
-                    isBlank = YES;
-//                    if ([obj tag] > 222) {
-//                        isBlank = NO;
-//                    }
+                    if ([obj tag] != 1003 && [obj tag] != 1004) {
+                        isBlank = YES;
+                    }
                 }
             }
         }
@@ -473,7 +472,7 @@
         //NSLog(self.setInspectionRecordId: self.inspectionRecordID);
         [self.delegate reloadRecordData];
         [self.delegate addObserverToKeyBoard];
-        [self dismissModalViewControllerAnimated:YES];
+        [self dismissViewControllerAnimated:YES completion:nil];
         
     }
 }
@@ -492,7 +491,8 @@
         if (self.descState == kAddNewRecord) {
             rect                 = [self.view convertRect:rect fromView:self.contentView];
         } else {
-            rect = [self.view convertRect:rect fromView:self.viewNormalDesc];
+            CGRect frame = CGRectMake(rect.origin.x, rect.origin.y, 100, rect.size.height);
+            rect = [self.view convertRect:frame fromView:self.viewNormalDesc];
         }
         [self.pickerPopover presentPopoverFromRect:rect inView:self.view permittedArrowDirections:UIPopoverArrowDirectionLeft animated:YES];
         icPicker.pickerPopover = self.pickerPopover;
