@@ -188,7 +188,7 @@ static NSString * xmlName = @"AtonementNoticeTable";
     //notice.case_desc = [@"于" stringByAppendingString:[proveInfo.event_desc substringFromIndex:range.location+1]];
     
     notice.case_desc =[CaseProveInfo generateEventDescForNotices:self.caseID];
-    notice.case_desc = [NSString stringWithFormat:@"%@%@",notice.case_desc,@"详细见《损坏公路设施索赔清单》"];
+    notice.case_desc = [NSString stringWithFormat:@"%@%@",notice.case_desc,@"详细见《损坏公路设施索赔清单》NO："];
 //    if(caseInfo.case_reason){
 //        [notice.case_desc stringByReplacingOccurrencesOfString:caseInfo.case_reason withString:@"交通事故"];
 //    }else if([notice.case_desc containsString:@"处因"]){

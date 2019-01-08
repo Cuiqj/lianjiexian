@@ -441,7 +441,7 @@
             <fontSize>11</fontSize>
             <origin x="17" y="90" />
             <size width="170" height="25" />
-            <leftOffSet>93</leftOffSet>
+            <leftOffSet>95</leftOffSet>
             <lineHeight>17</lineHeight>
             <content>
                 <data>
