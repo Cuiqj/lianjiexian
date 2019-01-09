@@ -178,6 +178,9 @@
 //
 - (void)applicationWillTerminate:(UIApplication *)application {
     [self saveContext];
+    
+  
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application{

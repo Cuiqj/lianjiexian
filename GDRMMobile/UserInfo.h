@@ -27,8 +27,8 @@
 
 + (UserInfo *)userInfoForUserID:(NSString *)userID;
 
-+ (NSArray *)allUserInfo;
 
++ (NSArray *)allUserInfo;
 + (NSString *)exelawIDForUserName:(NSString *)username;
 
 + (NSString *)orgAndDutyForUserName:(NSString *)username;
