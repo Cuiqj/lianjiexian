@@ -178,9 +178,6 @@
 //
 - (void)applicationWillTerminate:(UIApplication *)application {
     [self saveContext];
-    
-  
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application{
@@ -319,7 +316,6 @@
     if (__persistentStoreCoordinator != nil) {
         return __persistentStoreCoordinator;
     }
-    
     NSURL *storeUrl = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Model.sqlite"];
     
     // handle db upgrade
@@ -357,7 +353,7 @@
     [fetchRequest setEntity:entity];
     [fetchRequest setIncludesPropertyValues:NO];
     NSArray *mutableFetchResults=[self.managedObjectContext executeFetchRequest:fetchRequest error:&error];
-    for (NSManagedObject *tableinfo in mutableFetchResults){
+    for (NSManagedObject * tableinfo in mutableFetchResults){
         [self.managedObjectContext deleteObject:tableinfo];
     }
     [[AppDelegate App] saveContext];

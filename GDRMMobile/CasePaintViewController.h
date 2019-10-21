@@ -37,7 +37,7 @@
 
 @property (nonatomic,retain)    RoadModelBoard *roadModelBoard;//车道模版视图
 
-@property (nonatomic,retain)    PaintArea *paintBoard;//手绘区域视图
+@property (nonatomic,retain)    PaintArea * paintBoard;//手绘区域视图
 
 @property (nonatomic,weak) id <ReloadPaintDelegate> delegate;
 

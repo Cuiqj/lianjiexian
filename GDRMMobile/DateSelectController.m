@@ -113,7 +113,6 @@
     if (self.delegate && [self.delegate respondsToSelector:@selector(setDate:)]) {
         [self.delegate setDate:@""];
     }
-    
     [self.dateselectPopover dismissPopoverAnimated:YES];
 }
 

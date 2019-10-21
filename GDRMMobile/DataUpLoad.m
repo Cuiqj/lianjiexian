@@ -316,6 +316,8 @@
 //modify by lxm 2013.05.13
 static NSString *dataNameArray[UPLOADCOUNT]={@"Project",@"Task",@"AtonementNotice",@"CaseDeformation",@"CaseInfo",@"CaseInquire",@"CaseProveInfo",@"CaseServiceFiles",@"CaseServiceReceipt",@"Citizen",@"RoadWayClosed",@"Inspection",@"InspectionCheck",@"InspectionOutCheck",@"InspectionPath",@"InspectionRecord",@"ParkingNode",@"CaseMap",@"ConstructionChangeBack",@"TrafficRecord",@"InspectionConstruction",@"CasePhoto",@"MaintainPlanCheck",@"RectificationNotice",@"StopNotice",@"RoadWayClosed",@"CaseLawInfo",@"ServiceManage",@"ServiceManageDetail",@"HelpWork",@"CarCheckRecords",@"CheckInstitutions",@"RoadAsset_Check_Main",@"RoadAsset_Check_detail",@"BridgeSpaceCheckSpecialB",@"BridgeSpaceCheckSpecial"};
 
+//static NSString *dataNameArray[UPLOADCOUNT]={@"RoadSegment",@"FileCode",@"Sfz",@"Zd",@"Systype",@"UserInfo",@"OrgInfo"};
+
 //static NSString *dataNameArray[UPLOADCOUNT]={@"CaseMap"};
 
 @interface DataUpLoad()
@@ -367,6 +369,7 @@ static NSString *dataNameArray[UPLOADCOUNT]={@"Project",@"Task",@"AtonementNotic
 - (void)uploadDataAtIndex:(NSInteger)index{
     NSString * currentDataName = dataNameArray[index];
     NSArray *dataArray = [NSClassFromString(currentDataName) uploadArrayOfObject];
+//    NSArray *dataArray = [NSClassFromString(currentDataName) uploadAnyClassArrayOfObject];
     if (dataArray.count > 0 ) {
         if ([currentDataName isEqualToString:@"CasePhoto"]) {
             NSString *dataXML = @"";
@@ -497,7 +500,6 @@ static NSString *dataNameArray[UPLOADCOUNT]={@"Project",@"Task",@"AtonementNotic
 }
 ////单个表上传失败以后
 -(void)uploadFail{
-    
     NSString *upLoadedDataName = dataNameArray[self.currentWorkIndex];
     [self.uploadedFailRecord addObject:upLoadedDataName];
     self.currentWorkIndex += 1;
@@ -515,10 +517,7 @@ static NSString *dataNameArray[UPLOADCOUNT]={@"Project",@"Task",@"AtonementNotic
         [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
     }
     [_uploadedRecord didWriteDB];
-    
 }
-
-
 
 - (void)uploadFinishedWithObject:(NSNotification *)notification{
     NSString *upLoadedDataName = dataNameArray[self.currentWorkIndex];

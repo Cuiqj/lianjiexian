@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1618" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="18D109" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="AtonementNotice" representedClassName="AtonementNotice" syncable="YES">
         <attribute name="case_desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="caseinfo_id" optional="YES" attributeType="String" syncable="YES"/>
@@ -871,7 +871,7 @@
         <element name="CaseCount" positionX="160" positionY="192" width="128" height="105"/>
         <element name="CaseDeformation" positionX="0" positionY="0" width="128" height="225"/>
         <element name="CaseDocuments" positionX="0" positionY="0" width="128" height="90"/>
-        <element name="CaseInfo" positionX="0" positionY="0" width="128" height="570"/>
+        <element name="CaseInfo" positionX="-198" positionY="-225" width="128" height="570"/>
         <element name="CaseInquire" positionX="0" positionY="0" width="128" height="285"/>
         <element name="CaseLawInfo" positionX="81" positionY="153" width="128" height="225"/>
         <element name="CaseMap" positionX="160" positionY="192" width="128" height="165"/>
@@ -927,14 +927,14 @@
         <element name="ServiceManage" positionX="81" positionY="153" width="128" height="180"/>
         <element name="ServiceManageDetail" positionX="108" positionY="180" width="128" height="195"/>
         <element name="ServiceOrg" positionX="90" positionY="162" width="128" height="105"/>
-        <element name="Sfz" positionX="81" positionY="153" width="128" height="135"/>
-        <element name="StopNotice" positionX="81" positionY="153" width="128" height="225"/>
+        <element name="Sfz" positionX="-360" positionY="288" width="128" height="135"/>
+        <element name="StopNotice" positionX="-540" positionY="315" width="128" height="225"/>
         <element name="Systype" positionX="0" positionY="0" width="128" height="120"/>
-        <element name="Table101" positionX="81" positionY="153" width="128" height="135"/>
-        <element name="Task" positionX="160" positionY="192" width="128" height="135"/>
-        <element name="TrafficRecord" positionX="160" positionY="192" width="128" height="450"/>
-        <element name="UploadedRecordList" positionX="160" positionY="192" width="128" height="90"/>
-        <element name="UserInfo" positionX="0" positionY="0" width="128" height="225"/>
-        <element name="Zd" positionX="81" positionY="153" width="128" height="135"/>
+        <element name="Table101" positionX="376" positionY="83" width="128" height="133"/>
+        <element name="Task" positionX="-135" positionY="369" width="128" height="135"/>
+        <element name="TrafficRecord" positionX="-360" positionY="450" width="128" height="450"/>
+        <element name="UploadedRecordList" positionX="358" positionY="252" width="128" height="90"/>
+        <element name="UserInfo" positionX="-396" positionY="36" width="128" height="225"/>
+        <element name="Zd" positionX="232" positionY="18" width="128" height="133"/>
     </elements>
 </model>

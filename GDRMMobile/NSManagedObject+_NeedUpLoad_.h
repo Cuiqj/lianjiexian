@@ -34,4 +34,11 @@
 -(NSString*)JSONStringForCasePhoto;
 
 -(NSString *)dataXMLStringForCasePhotoServiceManage_jpg;
+
+
+
++ (NSArray *)uploadAnyClassArrayOfObject;
+
+
+
 @end

@@ -553,8 +553,8 @@
                     break;
                 case 3:{//绘图
                     if (selectedTool!=indexPath.row){
-                        selectedTool=indexPath.row;
-                        self.paintBoard.selectedTool=indexPath.row;
+                        selectedTool = indexPath.row;
+                        self.paintBoard.selectedTool = indexPath.row;
                         [self.paintBoard setUserInteractionEnabled:YES];
                         for (MoveableImage * moveImage in self.paintBoard.subviews) {
                             if ([moveImage isMemberOfClass:[MoveableImage class]]) {

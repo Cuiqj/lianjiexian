@@ -151,11 +151,7 @@ BOOL _wasKeyboardManagerEnabled;
 
 - (void)viewDidLoad{
     [CaseInfo deleteEmptyCaseInfo];//删除无用的案件数据
-    
-    
     [super viewDidLoad];
-    
-    
     currentFileName=@"";
     self.caseInfo=nil;
     proveDate=nil;

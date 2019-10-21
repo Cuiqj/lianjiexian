@@ -211,6 +211,14 @@
     return objArrayString;
 }
 - (NSString *)dataXMLString{
+    NSString *currentOrgID=[[NSUserDefaults standardUserDefaults] stringForKey:ORGKEY];
+    if (currentOrgID.length > 0) {
+        
+    }else{
+        NSString *currentUserID=[[NSUserDefaults standardUserDefaults] stringForKey:USERKEY];
+        currentOrgID = [UserInfo userInfoForUserID:currentUserID].organization_id;
+    }
+    
     NSString *dataXMLString  = @"";
     NSEntityDescription *entity=[self entity];
     NSDictionary *attributes = [entity attributesByName];
@@ -223,6 +231,15 @@
                 case NSStringAttributeType:{
                     if (obj == nil) {
                         obj = @"";
+                        if ([attriName isEqualToString:@"organization_id"]) {
+                            obj = currentOrgID;
+                        }
+                        if ([attriName isEqualToString:@"inspection_id"]) {
+                            obj = currentOrgID;
+                        }
+                        if ([attriName isEqualToString:@"inspectionid"]) {
+                            obj = currentOrgID;
+                        }
                     }
                     if (![attriName isEqualToString:@"maintainplan_id"]) {
                         if ([attriName isEqualToString:@"myid"]) {
@@ -364,12 +381,24 @@
 
     NSArray *pathArray = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentPath=[pathArray objectAtIndex:0];
-    NSString *photoPath=[NSString stringWithFormat:@"CasePhoto/%@",photo.proveinfo_id];
+    NSString *photoPath;
+    if(photo.proveinfo_id){
+        photoPath = [NSString stringWithFormat:@"CasePhoto/%@",photo.proveinfo_id];
+    }else{
+        photoPath = [NSString stringWithFormat:@"CasePhoto/%@",photo.project_id];
+    }
     photoPath=[documentPath stringByAppendingPathComponent:photoPath];
-
-//    UIImage *image        = [UIImage imageWithContentsOfFile:[photoPath stringByAppendingPathComponent:photo.photo_name]];
-//    image=[UIImage imageWithContentsOfFile:photo.photopath];
-    UIImage * image = [[UIImage alloc] initWithContentsOfFile:photoPath];
+    UIImage * image        = [UIImage imageWithContentsOfFile:[photoPath stringByAppendingPathComponent:photo.photo_name]];
+    if(image){
+        
+    }else{
+        image= [UIImage imageWithContentsOfFile:[[photoPath stringByReplacingOccurrencesOfString:@"CasePhoto/" withString:@"InspectionConstruction/"] stringByAppendingPathComponent:photo.photo_name]];
+    }
+    if(image){
+        
+    }else{
+        image= [UIImage imageWithContentsOfFile:photo.photopath];
+    }
     NSData *data          = UIImageJPEGRepresentation(image, 1);// UIImageJPGRepresentation(image);
     NSString *stringImage = [NSString base64forData:data];
     casePhotoStr          = [NSString stringWithFormat:casePhotoStr,photo.myid?photo.myid:@"",photo.proveinfo_id?photo.proveinfo_id:photo.project_id,photo.photo_name?photo.photo_name:@"",stringImage?stringImage:@"",photo.remark?photo.remark:@""];
@@ -388,8 +417,8 @@
     UIImage *image=[UIImage imageWithContentsOfFile:photo.photopath];
     NSData *imageData = UIImageJPEGRepresentation(image, 0.5);
     NSString*imageString=[NSString base64forData:imageData];
-    
 }
+
 + (NSDictionary *)replacedKeyFromPropertyName{
     return @{
              @"myid" : @"id",
@@ -400,6 +429,14 @@
 }
 
 
++ (NSArray *)uploadAnyClassArrayOfObject{
+    NSManagedObjectContext *moc=  [[AppDelegate App] managedObjectContext];
+    NSEntityDescription *entity= [NSEntityDescription entityForName:NSStringFromClass([self class]) inManagedObjectContext:moc];
+    NSFetchRequest *request = [[NSFetchRequest alloc]init];
+    [request setEntity:entity];
+    [request setPredicate:nil];
+    return [moc executeFetchRequest:request error:nil];
+}
 
 
 @end

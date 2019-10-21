@@ -17,3 +17,14 @@ pod 'LFLiveKit', '~> 1.6'
 pod 'AMap3DMap','~> 6.3.0'
 pod 'BaiduMapKit'
 end
+
+
+platform :ios, "8.0"
+
+xcodeproj 'FoKaiNobile.xcodeproj'
+
+target 'FoKaiNobile' do
+    
+    pod 'AFNetworking', '~> 3.1.0'
+    
+end
