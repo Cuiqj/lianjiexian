@@ -14,10 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - AMap3DMap (6.3.0):
-    - AMapFoundation (~> 1.5)
-  - AMapFoundation (1.5.3)
-  - BaiduMapKit (4.1.1)
+  - BaiduMapKit (3.4.4)
   - BarrageRenderer (1.8.1)
   - LFLiveKit (1.9.6)
   - Masonry (1.0.2)
@@ -30,8 +27,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
-  - AMap3DMap (~> 6.3.0)
-  - BaiduMapKit
+  - BaiduMapKit (~> 3.4.2)
   - BarrageRenderer (~> 1.8.0)
   - LFLiveKit (~> 1.6)
   - Masonry (~> 1.0.1)
@@ -42,9 +38,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  AMap3DMap: 1bb48f98ecb46682f145881692e7b06adcd06a93
-  AMapFoundation: 58f883c80754c659cf626deb3150936bfe8f1772
-  BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
+  BaiduMapKit: 4ac88f5a363500760392825b69709f4a0125f81e
   BarrageRenderer: a5dc2c9d38028be819b64ed2b7dfa240490b378a
   LFLiveKit: 3944fe79d51e171e391f5c980de4b9ecdb7de957
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
@@ -53,6 +47,6 @@ SPEC CHECKSUMS:
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: baeb09bf1328ba683f08031b01e0ddebd774b3ad
+PODFILE CHECKSUM: 996b2cadd13a5081c8177ba904631f8eb1c55c21
 
 COCOAPODS: 1.4.0

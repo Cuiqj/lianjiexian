@@ -14,17 +14,18 @@ pod 'MBProgressHUD', '~> 0.9.2'
 pod 'BarrageRenderer', '~> 1.8.0'
 #pod 'GPUImage', '~> 0.1.7' 由于LFLiveKit里面已经集成了GPUImage
 pod 'LFLiveKit', '~> 1.6'
-pod 'AMap3DMap','~> 6.3.0'
-pod 'BaiduMapKit'
+#pod 'AMap3DMap','~> 6.3.0'
+pod 'BaiduMapKit','~>3.4.2'
 end
 
 
-platform :ios, "8.0"
+#platform :ios, "8.0"
+#
+#xcodeproj 'FoKaiNobile.xcodeproj'
+#
+#target 'FoKaiNobile' do
+#
+#    pod 'AFNetworking', '~> 3.1.0'
+#
+#end
 
-xcodeproj 'FoKaiNobile.xcodeproj'
-
-target 'FoKaiNobile' do
-    
-    pod 'AFNetworking', '~> 3.1.0'
-    
-end

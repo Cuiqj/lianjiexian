@@ -336,8 +336,8 @@
 		840628F61FC7B7AB0062FA6E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 840628F51FC7B7AB0062FA6E /* libz.tbd */; };
 		840A40381FD97D2C0012BCBB /* ALinNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A40351FD97D2C0012BCBB /* ALinNetworkTool.m */; };
 		840A40391FD97D2C0012BCBB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A40371FD97D2C0012BCBB /* Reachability.m */; };
-		840A408D1FDA6FC30012BCBB /* (null) in Sources */ = {isa = PBXBuildFile; };
-		840A40921FDA726C0012BCBB /* (null) in Sources */ = {isa = PBXBuildFile; };
+		840A408D1FDA6FC30012BCBB /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		840A40921FDA726C0012BCBB /* BuildFile in Sources */ = {isa = PBXBuildFile; };
 		840D872F1FA96ABE009F38EF /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 840D872E1FA96ABE009F38EF /* mapapi.bundle */; };
 		840D87331FA96C35009F38EF /* InspectInMapViewCOntroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D87321FA96C35009F38EF /* InspectInMapViewCOntroller.m */; };
 		840F05DB212A57E30099AAF9 /* BridgeSpaceCheckSpecialB.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F05DA212A57E30099AAF9 /* BridgeSpaceCheckSpecialB.m */; };
@@ -2829,13 +2829,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LianJieXianMobile/Pods-LianJieXianMobile-resources.sh",
-				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
@@ -2878,7 +2876,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8477DB8B1FD68F9300CC8241 /* UIImage+XLExtension.h in Sources */,
-				840A408D1FDA6FC30012BCBB /* (null) in Sources */,
+				840A408D1FDA6FC30012BCBB /* BuildFile in Sources */,
 				846B535921352E7900369DDF /* NameimageViewController.m in Sources */,
 				8477DB8C1FD68F9300CC8241 /* UIView+XLExtension.h in Sources */,
 				84E5ECC1202C2CBE00A4AE44 /* TrafficAssistVC.m in Sources */,
@@ -3135,7 +3133,7 @@
 				33559ECB19A59276002AB681 /* AttachmentCell.m in Sources */,
 				336AC1171F1712D5001BFF0B /* InitRoadasset_checkitem.m in Sources */,
 				335DE5EF1E67B81800DF7A45 /* InsuranceNotice.m in Sources */,
-				840A40921FDA726C0012BCBB /* (null) in Sources */,
+				840A40921FDA726C0012BCBB /* BuildFile in Sources */,
 				33F6FCAA19BEAEE70098D458 /* InspectionConstructionPDFViewController.m in Sources */,
 				8477DB7C1FD68EFA00CC8241 /* UIImage+XLExtension.m in Sources */,
 				335FB5DE1A1DD85700F3754E /* NSString+Base64.m in Sources */,
